@@ -1,0 +1,81 @@
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(235, 201, 175);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: #c0b5b5;
+  /* text-align: left; */
+  height: 60vh;
+  width: 70vh;
+  border-radius: 20px;
+  /* display: flex; */
+
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding-left: 5px;
+}
+
+#taskName {
+  height: 5vh;
+  width: 45vh;
+  background-color: rgb(255, 252, 245);
+  border-color: #070303;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 5px;
+}
+
+#button {
+  height: 5vh;
+  width: 10vh;
+  background-color: rgb(255, 225, 165);
+  border-color: #0000002c;
+  /* margin-top: 10%; */
+  border-radius: 50px;
+  cursor: grabbing;
+}
+
+.heading {
+  text-align: center;
+  cursor: alias;
+}
+
+ul li {
+  list-style: circle;
+  list-style-type: circle;
+  padding: 10px 6px 10px 10px;
+  font-size: 18px;
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checked {
+  color: #555;
+  text-decoration: line-through;
+}
+
+/* 
+#box {
+    text-align: center;
+} */
+/* 
+ul li .span {
+  position: absolute;
+  right: 10;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 50px;
+  color: #121212;
+  line-height: 40px;
+  text-align: center;
+  cursor: cell;
+} */
